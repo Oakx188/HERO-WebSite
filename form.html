@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="./styles/Form.css">
+
+<body>
+    <h1>แบบฟรอมสอบถามข้อมูล</h1>
+    <img src="./images/n0.jpg" width="200px">
+    <form>
+        <fieldset> 
+            <legend>ข้อมูลส่วนตัว</legend>
+            <label>คำนำหน้า:</label>
+            <select>
+                <option value="0">-</option>
+                <option value="1">เด็กชาย</option>
+                <option value="2">เด็กหญิง</option>
+                <option value="3">นาย</option>
+                <option value="4">นาง</option>
+                <option value="4">นางสาว</option>
+            </select>
+            <label for="">ชื่อจริง:</label>
+            <input type="text">
+            <label for="">นามสกุล:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="">อายุ</label>
+            <select>
+                <option value="0">-</option>
+                <option value="1">0-10</option>
+                <option value="2">11-20</option>
+                <option value="3">21-30</option>
+                <option value="4">31-40</option>
+                <option value="5">41-50</option>
+                <option value="6">51-60</option>
+            </select>
+            <br>
+            <br>
+            <label for="">Email:</label>
+            <input type="email" name="" id="">
+            <label for="">Password:</label>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend>ความสนใจ</legend>
+            <input type="checkbox">
+            <label for="">:ด้านการเขียนโปรแกรม</label>
+            <input type="checkbox" name="" id="">
+            <label for="">:ด้านAI</label>
+            <h5>ความคิดเห็น:</h5>
+            <textarea name="comment" id="" cols="20" rows="5"></textarea> 
+        </fieldset>
+        <br>
+        <button class="submit">submit</button>
+        <button class="reset">reset</button>
+    </form>
+    <br>
+    <br>
+    <nav>
+    <a class="press" href="./index.html" rel="noopener noreferrer"><input type="button" value="back" ></a> 
+    <a class="press" href="" rel="noopener noreferrer"><input type="button" value="next" ></a>
+
+    </nav>
+</body>
+
+</html>
